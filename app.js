@@ -34,8 +34,8 @@ const pages = {
           </button>
         </div>
         <div class="form-options">
-          <label class="check-label"><input type="checkbox" name="remember" /><span class="custom-check" aria-hidden="true"></span><span>Keep me signed in</span></label>
-          <span class="option-note">ON THIS DEVICE</span>
+          <span class="option-note">DEMO REDIRECT</span>
+          <span class="option-note">AMINNEPALI.COM.NP ↗</span>
         </div>
         <button class="submit-button" type="submit">
           <span>Sign in to your space</span>
@@ -90,7 +90,6 @@ const pages = {
             <svg viewBox="0 0 20 20" fill="none"><path d="M2.5 10s2.7-5 7.5-5 7.5 5 7.5 5-2.7 5-7.5 5-7.5-5-7.5-5Z" /><circle cx="10" cy="10" r="2.2" /></svg>
           </button>
         </div>
-        <label class="check-label terms-check"><input type="checkbox" name="terms" required /><span class="custom-check" aria-hidden="true"></span><span>I agree to the <a class="inline-link" href="https://aminnepali.com.np/" target="_blank" rel="noreferrer">terms and privacy policy</a></span></label>
         <button class="submit-button" type="submit">
           <span>Create my account</span>
           <span class="button-arrow" aria-hidden="true">↗</span>

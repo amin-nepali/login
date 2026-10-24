@@ -632,54 +632,6 @@ input:focus-visible {
   margin: 15px 0 22px;
 }
 
-.check-label {
-  display: inline-flex;
-  min-height: 18px;
-  align-items: center;
-  gap: 9px;
-  color: #a8b0a9;
-  cursor: pointer;
-  font-size: 10px;
-}
-
-.check-label input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-}
-
-.custom-check {
-  display: inline-grid;
-  width: 14px;
-  height: 14px;
-  flex: 0 0 14px;
-  border: 1px solid rgba(225, 238, 226, 0.22);
-  border-radius: 3px;
-  background: rgba(0, 0, 0, 0.16);
-  place-items: center;
-  transition: background 160ms ease, border-color 160ms ease;
-}
-
-.check-label input:checked + .custom-check {
-  border-color: var(--accent);
-  background: var(--accent);
-}
-
-.check-label input:checked + .custom-check::after {
-  width: 7px;
-  height: 4px;
-  border-bottom: 1.5px solid var(--accent-ink);
-  border-left: 1.5px solid var(--accent-ink);
-  content: "";
-  transform: translateY(-1px) rotate(-45deg);
-}
-
-.check-label input:focus-visible + .custom-check {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
 .option-note {
   color: #667069;
   font-size: 7px;
@@ -946,22 +898,6 @@ input:focus-visible {
 .password-meter[data-strength="3"] span:nth-child(-n+3),
 .password-meter[data-strength="4"] span:nth-child(-n+4) {
   background: var(--accent);
-}
-
-.terms-check {
-  margin: 17px 0 18px;
-  align-items: flex-start;
-  line-height: 1.6;
-}
-
-.terms-check .custom-check {
-  margin-top: 1px;
-}
-
-.terms-check .inline-link {
-  font-size: inherit;
-  text-decoration: underline;
-  text-underline-offset: 2px;
 }
 
 [data-form="register"] .field-label:not(:first-child) {
