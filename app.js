@@ -147,7 +147,6 @@ function renderPage() {
   `;
   authCard.classList.remove("card-enter");
   requestAnimationFrame(() => authCard.classList.add("card-enter"));
-  authContent.querySelector("input")?.focus({ preventScroll: true });
 }
 
 window.addEventListener("hashchange", renderPage);
