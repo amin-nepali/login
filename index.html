@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Amin Nepali secure access — a modern sign-in experience."
+    />
+    <meta name="theme-color" content="#080b0a" />
+    <title>Secure access — Amin Nepali</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <div class="ambient ambient--one" aria-hidden="true"></div>
+    <div class="ambient ambient--two" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#/login" aria-label="Amin Nepali secure access home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 36" fill="none">
+            <path d="M18 3.75 31 11.1v13.8L18 32.25 5 24.9V11.1L18 3.75Z" />
+            <path d="m12.2 22.9 5.8-12 5.8 12M14.4 18.6h7.2" />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">AMIN<span>NEPALI</span></span>
+          <span class="brand-caption">PERSONAL ACCESS</span>
+        </span>
+      </a>
+
+      <div class="topbar-right">
+        <span class="secure-label"><span class="status-dot"></span> PRIVATE SPACE</span>
+        <a class="topbar-link" href="https://aminnepali.com.np/" target="_blank" rel="noreferrer">
+          aminnepali.com.np <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="story" aria-labelledby="story-title">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE CLOSER TO WHAT'S NEXT</div>
+        <h1 id="story-title">Your world.<br /><span>Your way.</span></h1>
+        <p class="story-copy">
+          One calm, considered place to pick up where you left off. Good to have you here.
+        </p>
+
+        <div class="orbit-art" aria-hidden="true">
+          <div class="orbit orbit--outer"></div>
+          <div class="orbit orbit--middle"></div>
+          <div class="orbit orbit--inner"></div>
+          <div class="orbit-core">
+            <svg viewBox="0 0 44 44" fill="none">
+              <path d="m22 5 15 8.5v17L22 39l-15-8.5v-17L22 5Z" />
+              <path d="m15.2 27.5 6.8-14 6.8 14M17.8 22.5h8.4" />
+            </svg>
+          </div>
+          <span class="orbit-tag orbit-tag--top">A / N</span>
+          <span class="orbit-tag orbit-tag--bottom">EST. 2024</span>
+          <span class="orbit-star orbit-star--one">✳</span>
+          <span class="orbit-star orbit-star--two">✳</span>
+        </div>
+
+        <div class="story-footer">
+          <span class="story-footer-mark" aria-hidden="true">✳</span>
+          <span>DESIGNED FOR A MORE PERSONAL INTERNET</span>
+          <span class="story-footer-index">01 — 03</span>
+        </div>
+      </section>
+
+      <section class="auth-area" aria-label="Account access">
+        <div class="auth-card" id="auth-card">
+          <div class="card-topline">
+            <span class="card-kicker" id="card-kicker">WELCOME BACK</span>
+            <span class="card-index" id="card-index">01 / 03</span>
+          </div>
+          <div id="auth-content"></div>
+          <p class="demo-note">
+            <span class="demo-note-icon" aria-hidden="true">i</span>
+            <span><strong>Demo mode.</strong> No account is created and credentials are never stored or sent. Sign-in redirects without verifying your identity.</span>
+          </p>
+          <div class="card-bottom">
+            <span>SECURE BY DESIGN <span class="bottom-separator">/</span> HUMAN BY NATURE</span>
+            <span class="bottom-spark" aria-hidden="true">✳</span>
+          </div>
+        </div>
+        <div class="help-line">
+          <span>Need a hand?</span>
+          <a href="mailto:hello@aminnepali.com.np">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <span>© <span id="current-year"></span> AMIN NEPALI</span>
+      <span class="footer-center"><span class="footer-live-dot"></span> ALL SYSTEMS FEELING GOOD</span>
+      <a href="https://aminnepali.com.np/" target="_blank" rel="noreferrer">MADE WITH INTENTION <span aria-hidden="true">↗</span></a>
+    </footer>
+
+    <script>
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
